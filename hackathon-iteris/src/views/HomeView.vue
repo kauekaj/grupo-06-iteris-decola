@@ -12,12 +12,13 @@
       <br>
     </v-container>
         <div> 
-      <v-btn color="dark" elevation="2" large x-large v-on:click="telaCadastro">  CADASTRA-SE  </v-btn>
+      <v-btn color="dark" elevation="2" large x-large v-on:click="telaCadastro" :to="'/CadastroView'">  CADASTRA-SE  </v-btn>
     </div>
 
     <br>
     <div>
-      <v-btn color="dark" elevation="2" large x-large v-on:click="telaLogin">     LOGIN     </v-btn>
+    <!-- <router-link :to="'/LoginView'">Login</router-link> -->
+      <v-btn color="dark" elevation="2" large x-large v-on:click="telaLogin" :to="'/LoginView'">     LOGIN     </v-btn>
     </div>
     <br>
      <v-img
@@ -38,10 +39,10 @@ export default {
     },
     methods: {
         telaCadastro() {
-            
+        
         },
         telaLogin() {
-        //    <router-link to ="/LoginView"/>
+        
         }
     }
 };
