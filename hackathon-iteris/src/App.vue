@@ -2,26 +2,19 @@
   <v-app>
     <ApptopbarView/>
     <v-main>
-      <router-view/>
+      <router-view />
     </v-main>
   </v-app>
 </template>
 
 <script>
+
 import ApptopbarView from '../components/shared/ApptopbarView.vue'
 
 export default {
-  name: 'App',
+  nome: 'App',
   components: {
-    ApptopbarView
+    ApptopbarView,
   }
 };
 </script>
-
-<style>
-.link-home {
-  color: white !important;
-  text-decoration: none;
-}
-</style>
-
