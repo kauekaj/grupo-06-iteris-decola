@@ -2,7 +2,7 @@
   <div class="HomeView">
     <v-container>
     <br>
-      <h2 class="text-h5 text-center mb-3 mt-5">EASTER EGG LOVER 🐰</h2>
+      <h2 class="text-h5 text-center mb-3 mt-5">EASTER EGG LOVER 🥕</h2>
       <br>
         <p>Difícil encontrar alguém que não se renda ao sabor incomparável e insubstituível do chocolate.</p> 
         <br>
