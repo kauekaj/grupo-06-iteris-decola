@@ -9,15 +9,15 @@
             <thead>
                 <tr>
                     <th colspan="2" class="text-left">
-                        Clubes
+                        Produtos
                     </th>
                     <th class="text-right">
-                        Pontos
+                        Dados
                     </th>
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="item of ListaOvos" :key="item.id">    
+                <tr v-for="item of ListaView" :key="item.id">    
                     <td>
                         <v-avatar size="24">
                             <img
@@ -40,7 +40,7 @@
 
 <script>
 export default {
-    name: 'ListaOvos',
+    name: 'ListaView',
     data() {
         return {
             listaOvos: []
