@@ -1,1 +1,0 @@
-# grupo-06-iteris-decola
