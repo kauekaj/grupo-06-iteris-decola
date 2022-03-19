@@ -29,8 +29,6 @@
 </template>
 
 <script>
-import router from '@/router';
-import LoginViewVue from './LoginView.vue';
 export default {
   name: "HomeView",
     data() {
