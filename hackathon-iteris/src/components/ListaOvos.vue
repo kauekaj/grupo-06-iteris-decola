@@ -69,23 +69,8 @@
   }
 </script>
 
-<style scoped>
 
 
-
-</style>
-
-<script>
-  export default {
-    name:'ListaOvos',
-    props: {
-        ordemOvos: {
-            type:Array,
-            required: true
-        }
-    },
-  }
-</script>
 
 <style scoped>
 
