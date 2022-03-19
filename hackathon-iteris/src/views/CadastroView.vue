@@ -9,9 +9,7 @@
 <script>
 
 </script>
-.centro{
-    
-}
+
 <style scoped>
  
 </style>
