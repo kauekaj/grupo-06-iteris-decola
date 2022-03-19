@@ -12,11 +12,11 @@
       <br>
     </v-container>
         <div>
-      <v-btn color="dark" elevation="2" large x-large>  CADASTRA-SE  </v-btn>
+      <v-btn color="dark" elevation="2" large x-large v-on:click="telaCadastro">  CADASTRA-SE  </v-btn>
     </div>
     <br>
     <div>
-      <v-btn color="dark" elevation="2" large x-large>     LOGIN     </v-btn>
+      <v-btn color="dark" elevation="2" large x-large v-on:click="telaLogin">     LOGIN     </v-btn>
     </div>
     <br>
      <v-img
@@ -30,6 +30,19 @@
 <script>
 export default {
   name: "HomeView",
+    data() {
+        return {
+
+        }
+    },
+    methods: {
+        telaCadastro() {
+            
+        },
+        telaLogin() {
+            
+        }
+    }
 };
 </script>
 
@@ -38,9 +51,6 @@ export default {
   border-radius: 300px;
 }
 .HomeView {
-    background-color: khaki;
-}
-.botaoCadastro {
     background-color: khaki;
 }
 </style>

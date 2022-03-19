@@ -63,7 +63,7 @@
               </v-list-item-icon>
               <v-list-item-title>Comprar</v-list-item-title>
             </v-list-item>
-          </router-link>
+      
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>  
