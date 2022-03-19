@@ -2,7 +2,6 @@
   
     <div class="card">
         <v-list v-for="ovo of listaOvos" :key="ovo.id">
-        
             <v-card
                 class="mx-auto"
                 max-width="344">
@@ -14,7 +13,7 @@
                 </v-card-title>
 
                 <v-card-subtitle>
-                    1,000 miles of wonder
+                    {{local.nome}}
                 </v-card-subtitle>
 
                 <v-card-actions>
@@ -22,7 +21,7 @@
                     color="orange lighten-2"
                     text
                 >
-                    Explore
+                    Saiba Mais
                 </v-btn>
 
                 <v-spacer></v-spacer>
@@ -43,10 +42,13 @@
 
                     <v-card-text>
                     {{local.cep}}
-                    
-                    {{nome}}
+                    {{ovo.preco}}
+                    {{ovo.sabor}}
+                
                     </v-card-text>
                 </div>
+
+                <button v-on=click> Comprar </button>
                 </v-expand-transition>
             </v-card>
         </v-list> 
@@ -69,11 +71,6 @@
   }
 </script>
 
-
-
-
 <style scoped>
-
-
 
 </style>
