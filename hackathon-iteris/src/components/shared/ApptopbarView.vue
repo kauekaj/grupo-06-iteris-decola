@@ -28,8 +28,6 @@
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
-<<<<<<< HEAD
-=======
     
           <router-link to="/Cadastrar">
             <v-list-item>
@@ -54,7 +52,6 @@
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>  
->>>>>>> 3b131be22ef7ab59cbc9b2a30649ae6a4ece6ffe
   </div>
 </template>
 
