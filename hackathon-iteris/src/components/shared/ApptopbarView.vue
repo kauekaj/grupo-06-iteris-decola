@@ -28,6 +28,33 @@
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
+<<<<<<< HEAD
+=======
+    
+          <router-link to="/Cadastrar">
+            <v-list-item>
+              <v-list-item-icon>
+                <v-icon>mdi-account</v-icon>
+              </v-list-item-icon>
+              <v-list-item-title>Cadastrar</v-list-item-title>
+            </v-list-item>
+          </router-link>
+        </v-list-item-group>
+      </v-list>
+    </v-navigation-drawer>
+  
+          <router-link to="/Comprar">
+            <v-list-item>
+              <v-list-item-icon>
+                <v-icon>mdi-account</v-icon>
+              </v-list-item-icon>
+              <v-list-item-title>Comprar</v-list-item-title>
+            </v-list-item>
+      
+        </v-list-item-group>
+      </v-list>
+    </v-navigation-drawer>  
+>>>>>>> 3b131be22ef7ab59cbc9b2a30649ae6a4ece6ffe
   </div>
 </template>
 
