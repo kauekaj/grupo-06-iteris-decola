@@ -15,7 +15,7 @@ const routes = [
   {
     path: '/LoginView',
     name: 'LoginView',
-    component: LoginView,
+    component: LoginView
   },
     {
     path: '/listaprodutos',

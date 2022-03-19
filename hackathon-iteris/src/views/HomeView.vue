@@ -11,9 +11,10 @@
         <p>Encontre aqui uma opção que caiba dentro do seu bolso e que seja irresistível, todos vão gostar.</p>
       <br>
     </v-container>
-        <div>
+        <div> 
       <v-btn color="dark" elevation="2" large x-large v-on:click="telaCadastro">  CADASTRA-SE  </v-btn>
     </div>
+
     <br>
     <div>
       <v-btn color="dark" elevation="2" large x-large v-on:click="telaLogin">     LOGIN     </v-btn>
@@ -28,6 +29,8 @@
 </template>
 
 <script>
+import router from '@/router';
+import LoginViewVue from './LoginView.vue';
 export default {
   name: "HomeView",
     data() {
@@ -40,7 +43,7 @@ export default {
             
         },
         telaLogin() {
-            
+        //    <router-link to ="/LoginView"/>
         }
     }
 };
