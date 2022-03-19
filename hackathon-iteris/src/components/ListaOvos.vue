@@ -6,7 +6,7 @@
                 class="mx-auto"
                 max-width="344">
                 
-                    <img :src="ovo.imagem" :alt="ovo.nome">
+                    <img :src="ovo.imagem" :alt="ovo.id">
                 
                 <v-card-title>
                     {{ovo.nome}}
