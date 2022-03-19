@@ -3,7 +3,7 @@
     <v-app-bar color="light-blue darken-3" dark>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Compre de quem faz</v-toolbar-title>
+      <v-toolbar-title>Easter egg lovers</v-toolbar-title>
       <v-spacer />
       <v-btn
         v-on="on"
@@ -43,30 +43,6 @@
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
-    
-          <router-link to="/Cadastrar">
-            <v-list-item>
-              <v-list-item-icon>
-                <v-icon>mdi-account</v-icon>
-              </v-list-item-icon>
-              <v-list-item-title>Cadastrar</v-list-item-title>
-            </v-list-item>
-          </router-link>
-        </v-list-item-group>
-      </v-list>
-    </v-navigation-drawer>
-  
-          <router-link to="/Comprar">
-            <v-list-item>
-              <v-list-item-icon>
-                <v-icon>mdi-account</v-icon>
-              </v-list-item-icon>
-              <v-list-item-title>Comprar</v-list-item-title>
-            </v-list-item>
-          </router-link>
-        </v-list-item-group>
-      </v-list>
-    </v-navigation-drawer>  
   </div>
 </template>
 
