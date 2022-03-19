@@ -2,9 +2,13 @@
   <div class="HomeView">
     <v-container>
     <br>
-      <h2 class="text-h5 text-center mb-3 mt-5">Ovos de Páscoa</h2>
+      <h2 class="text-h5 text-center mb-3 mt-5">Easter Egg Lover 🐰</h2>
       <br>
-      <p>O ovo de pascoa caseiro feito com muito amor e carinho.</p>
+        <p>Difícil encontrar alguém que não se renda ao sabor incomparável e insubstituível do chocolate.</p> 
+        <br>
+        <p>E pode ser uma boa opção para presentear amigos e familiares.</p>
+        <br>
+        <p>Encontre aqui uma opção que caiba dentro do seu bolso e que seja irresistível, todos vão gostar.</p>
       <br>
     </v-container>
      <v-img
@@ -15,7 +19,6 @@
     <div>
       <v-btn color="dark" elevation="2" large x-large>  CADASTRA-SE  </v-btn>
     </div>
-    <br>
     <br>
     <div>
       <v-btn color="dark" elevation="2" large x-large>     LOGIN     </v-btn>
