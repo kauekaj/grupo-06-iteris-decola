@@ -32,17 +32,41 @@
             </v-list-item>
           </router-link>
 
-          <router-link to="/UniversidadesLista">
+          <router-link to="/Login">
             <v-list-item>
               <v-list-item-icon>
                 <v-icon>mdi-account</v-icon>
               </v-list-item-icon>
-              <v-list-item-title>Universidades</v-list-item-title>
+              <v-list-item-title>Login</v-list-item-title>
             </v-list-item>
           </router-link>
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
+    
+          <router-link to="/Cadastrar">
+            <v-list-item>
+              <v-list-item-icon>
+                <v-icon>mdi-account</v-icon>
+              </v-list-item-icon>
+              <v-list-item-title>Cadastrar</v-list-item-title>
+            </v-list-item>
+          </router-link>
+        </v-list-item-group>
+      </v-list>
+    </v-navigation-drawer>
+  
+          <router-link to="/Comprar">
+            <v-list-item>
+              <v-list-item-icon>
+                <v-icon>mdi-account</v-icon>
+              </v-list-item-icon>
+              <v-list-item-title>Comprar</v-list-item-title>
+            </v-list-item>
+          </router-link>
+        </v-list-item-group>
+      </v-list>
+    </v-navigation-drawer>  
   </div>
 </template>
 
