@@ -4,6 +4,7 @@ import HomeView from '../views/HomeView.vue'
 import LoginView from '../views/LoginView.vue'
 import ListaView from '../views/ListaView.vue'
 
+
 Vue.use(VueRouter)
 
 const routes = [
