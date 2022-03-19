@@ -1,5 +1,17 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <v-container>
+      <h2 class="text-h5 text-center mb-3 mt-5">Ovos de Páscoa</h2>
+      <p>
+        O ovo de pascoa caseiro feito com muito amor e carinho.
+      </p>
+    </v-container>
   </div>
 </template>
+
+<script>
+export default {};
+</script>
+
+<style scoped>
+</style>
